@@ -52,10 +52,10 @@ brew install opensc
 
 `tpmman` is a generic wrapper and can be used with any library that implements the PKCS#11 (Cryptoki) standard. Common backends include:
 
+- **libykcs11**: Yubico's library for YubiKey PIV support.
 - **SoftHSM2**: Software-based implementation of a cryptographic token.
 - **tpm2-pkcs11**: Interface to Hardware TPM 2.0 chips.
-- **libykcs11**: Yubico's library for YubiKey PIV support.
-- **Hardware/Cloud HSMs**: Enterprise solutions from AWS, Google Cloud, Azure, Thales, SafeNet, etc.
+- **Hardware/Cloud HSMs**: Enterprise solutions from AWS, Azure
 
 *Note: While many backends are compatible, `tpmman` currently focuses on a subset of the PKCS#11 API (primarily Session Management, Object Searching, and Signing).*
 
