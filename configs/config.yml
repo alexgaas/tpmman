@@ -1,0 +1,6 @@
+debug: true
+backend: /opt/homebrew/lib/opensc-pkcs11.so
+saved_tokens:
+  -
+    label: ftoken
+    userpin: userpin123
