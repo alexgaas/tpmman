@@ -1,1 +1,4 @@
+*.cpp linguist-language=cpp
+*.h linguist-language=cpp
+src/pkcs11/pkcs11.h linguist-vendored
 *.py linguist-detectable=false
